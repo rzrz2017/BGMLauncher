@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_search"
+    android:orientation="vertical"
+    android:padding="40dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/str_sm_awaken"
+            android:textColor="@color/default_color"
+            android:textSize="@dimen/title_size" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/set_abount"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/set_selector"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:maxLines="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:text="@string/str_awahen_switch"
+            android:textColor="@color/default_color"
+            android:textSize="16sp" />
+
+        <ImageButton
+
+            android:id="@+id/btn_awaken"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/set_abount1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/set_selector"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:maxLines="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:text="@string/str_awahen_switch"
+            android:textColor="@color/default_color"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:background="#00000000"
+            android:id="@+id/btn_awaken0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/set_abount2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/set_selector"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:maxLines="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:text="@string/str_awahen_switch"
+            android:textColor="@color/default_color"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:background="#00000000"
+            android:id="@+id/btn_awaken1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>

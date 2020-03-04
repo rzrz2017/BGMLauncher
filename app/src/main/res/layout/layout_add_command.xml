@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:gravity="center_vertical"
+    android:id="@+id/layout_add_command"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/default_color"
+            android:text="指令名称:"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_layout_command_name"
+            android:background="@drawable/com_device_name_input"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:maxLines="1"
+            android:layout_marginLeft="10dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/default_color"
+            android:text="指令内容:"
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_layout_command_content"
+            android:background="@drawable/com_device_name_input"
+            android:paddingLeft="5dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:maxLines="1"
+            android:hint="16进制"
+            android:layout_marginLeft="10dp"
+            />
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/adapter_selector"
+            android:textSize="16sp"
+            android:textColor="@color/default_color"
+            android:text="发送"
+            android:id="@+id/et_layout_send"
+            />
+
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/adapter_selector"
+            android:textSize="16sp"
+            android:textColor="@color/default_color"
+            android:text="保存"
+            android:id="@+id/et_layout_save"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/adapter_selector"
+            android:textSize="16sp"
+            android:textColor="@color/default_color"
+            android:text="删除"
+            android:id="@+id/et_layout_delete"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+

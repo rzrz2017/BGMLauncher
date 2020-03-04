@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/about_dev_bg">
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.dsn.andy.bgmlauncher.view.CenterTextView
+        android:id="@+id/txt"
+        android:textColor="@color/default_color"
+        android:textSize="@dimen/middle_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+

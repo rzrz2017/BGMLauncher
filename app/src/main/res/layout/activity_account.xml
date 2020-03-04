@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_account_left"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/ic_left_line" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_account_header" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/history"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/adapter_selector"
+            android:drawableLeft="@drawable/ic_account_record"
+            android:drawablePadding="20dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="50dp"
+            android:paddingTop="10dp"
+            android:text="播放记录"
+            android:textColor="@color/default_color"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/ic_left_line" />
+
+        <Button
+            android:id="@+id/local"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/adapter_selector"
+            android:drawableLeft="@drawable/ic_account_tf"
+            android:drawablePadding="20dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="50dp"
+            android:paddingTop="10dp"
+            android:text="本地TF卡"
+            android:textColor="@color/default_color"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/ic_left_line" />
+
+        <Button
+            android:id="@+id/love"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/adapter_selector"
+            android:drawableLeft="@drawable/ic_account_store"
+            android:drawablePadding="20dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="50dp"
+            android:paddingTop="10dp"
+            android:text="歌曲收藏"
+            android:textColor="@color/default_color"
+            android:textSize="15sp"
+
+            />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/ic_left_line" />
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/market"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/adapter_selector"
+            android:drawableLeft="@drawable/ic_account_shangcheng"
+            android:drawablePadding="20dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="50dp"
+            android:paddingTop="10dp"
+            android:text="购物商城"
+            android:textColor="@color/default_color"
+            android:textSize="15sp" />
+
+        <View
+            android:visibility="gone"
+            android:layout_width="fill_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/ic_left_line" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:id="@+id/fragments"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+
+

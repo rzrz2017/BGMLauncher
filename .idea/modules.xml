@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BGMLauncher.iml" filepath="$PROJECT_DIR$/BGMLauncher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dlnaalllibrary/dlnaalllibrary.iml" filepath="$PROJECT_DIR$/dlnaalllibrary/dlnaalllibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greendaolib/greendaolib.iml" filepath="$PROJECT_DIR$/greendaolib/greendaolib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mediaRender/mediaRender.iml" filepath="$PROJECT_DIR$/mediaRender/mediaRender.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vitamio/vitamio.iml" filepath="$PROJECT_DIR$/vitamio/vitamio.iml" />
+    </modules>
+  </component>
+</project>

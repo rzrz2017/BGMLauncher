@@ -1,0 +1,6 @@
+<resources>
+    <string name="error_configuration">请先配置</string>
+    <string name="error_security">没有读写串口的权限</string>
+    <string name="error_unknown">串口不能读写，原因未知</string>
+
+</resources>

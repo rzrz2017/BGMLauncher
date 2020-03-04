@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">背景音乐</string>
+    <string name="str_search">搜索</string>
+    <string name="str_me">本地</string>
+    <string name="str_recommend">推荐歌曲</string>
+
+    <string name="str_internet">在线音乐</string>
+    <string name="str_radio">音乐云</string>
+    <string name="str_tool">工具</string>
+    <string name="str_more">更多</string>
+    <string name="str_assistanr">助手</string>
+    <string name="str_smarthome">智能家居</string>
+    <string name="str_app">更多应用</string>
+    <string name="str_after_sale">售后帮助</string>
+
+    <string name="str_sys_setting">系统设置</string>
+    <string name="str_qr">进入APP扫描此设备，\n让您通过手机可以直接连接设备。</string>
+
+    <string name="str_search_hint">搜索歌曲</string>
+    <string name="str_search_result">搜索结果</string>
+    <string name="str_searchin_other_app">在其他音乐APP中搜索</string>
+
+    <string name="str_type_pop">流行音乐</string>
+    <string name="str_type_oumei">欧美音乐</string>
+    <string name="str_type_rihan">日韩音乐</string>
+    <string name="str_type_class">古典音乐</string>
+    <string name="str_type_minyao">民谣音乐</string>
+    <string name="str_type_chun">纯音乐</string>
+    <string name="str_type_recommend">典声推荐</string>
+
+    <!-- 电台-->
+    <string name="str_tuokouxiu">脱口秀</string>
+    <string name="str_shishang">时尚生活</string>
+    <string name="str_zhubo">主播电台</string>
+    <string name="str_paihang">排行榜</string>
+
+    <string name="str_dsn_recommend">典声推荐</string>
+    <string name="str_radio_paihang">节目排行榜</string>
+
+    <string name="str_smarthome_home">首页</string>
+    <string name="str_smarthome_setting">设置</string>
+    <string name="str_smarthome_status">状态</string>
+    <string name="str_smarthome_exit">退出</string>
+
+    <array name="array_tools">
+        <item>网络设置</item>
+        <item>通用设置</item>
+        <item>清除缓存</item>
+        <item>显示设置</item>
+        <item>语音助手</item>
+        <item>语音帮助</item>
+        <item>手机推送</item>
+        <item>音源切换</item>
+    </array>
+
+
+
+
+    <array name="array_music_names">
+        <item>流金岁月里，再见你</item>
+        <item>一次暗涌，终身美丽</item>
+        <item>玫瑰玫瑰我爱你</item>
+        <item>清风徐来，惹得时间煮雨</item>
+        <item>昨日重现，我心永恒</item>
+        <item>在哪里在哪里见过你</item>
+        <item>夜色撩人，经典收藏</item>
+        <item>玫瑰香的女人和不太冷的杀手</item>
+
+    </array>
+
+
+
+    <string name="app_id">599abb23</string>
+
+    <string name="str_url">网址:www.dsyinyue.com</string>
+    <string name="str_phone">全国客服电话:0755-86397980</string>
+    <string name="str_company">公司:深圳市典声伟业科技有限公司</string>
+    <string name="str_address">全国联保售后地址:深圳市宝安区石岩街道径背路慧谷创新科技园C栋4楼</string>
+
+    <string name="str_common_setting">通用设置</string>
+    <string name="str_about_device">关于本机</string>
+    <string name="str_update">软件升级</string>
+    <string name="str_sm_setting">智能家居设置</string>
+    <string name="str_sm_awaken">唤醒设置</string>
+    <string name="str_sm_enable">支持无线智能家居功能</string>
+    <string name="str_sm485_setting">485智能家居设置</string>
+    <string name="str_sm485_enable">支持485智能家居功能</string>
+    <string name="str_sm_display">智能家居</string>
+    <string name="str_sm_advancedsetting">高级设置</string>
+    <string name="str_sm_moresetting">更多设置</string>
+    <string name="str_awahen_switch">语音唤醒开关</string>
+
+    <string name="update">更新</string>
+
+    <string name="str_introduce">节目介绍</string>
+
+    <string name="str_music">音乐歌曲</string>
+    <string name="str_fm">电台节目</string>
+
+
+</resources>

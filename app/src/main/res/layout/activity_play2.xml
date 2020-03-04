@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_play"
+    android:paddingLeft="@dimen/header_margin"
+    android:paddingRight="@dimen/header_margin">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/header_height"
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:textSize="@dimen/middle_size"
+        android:textColor="@color/default_color"
+        android:layout_centerInParent="true"
+        />
+
+
+
+</RelativeLayout>
+
+    <ImageView
+        android:id="@+id/sound_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@null"
+        android:src="@drawable/ic_playing"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:background="@null"
+        >
+
+        <ImageView
+            android:id="@+id/prev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_prev"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            />
+
+        <ImageView
+            android:id="@+id/play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_pause"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            />
+
+        <ImageView
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_next"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:background="@null"
+        >
+
+        <ImageView
+            android:id="@+id/remove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_remove"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            />
+
+        <ImageView
+            android:id="@+id/love"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_love"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            />
+
+        <ImageView
+            android:visibility="invisible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_tool_store"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            />
+
+        <ImageView
+            android:id="@+id/store"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_tool_store"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            />
+
+
+
+        <ImageView
+            android:id="@+id/desktop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_desktop"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000"
+    android:orientation="vertical">
+
+       <ListView
+           android:layout_margin="30dp"
+           android:id="@+id/list"
+           android:layout_width="match_parent"
+           android:layout_height="0dp"
+           android:layout_weight="1"
+           android:divider="#ff000000"
+           android:dividerHeight="20dp"
+           android:listSelector="@drawable/adapter_selector"
+           android:clickable="false"
+           >
+
+       </ListView>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_speaker"
+            />
+
+        <TextView
+            android:textSize="18sp"
+            android:gravity="center"
+            android:text="请说出语音指令"
+            android:textColor="@color/default_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            </TextView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+

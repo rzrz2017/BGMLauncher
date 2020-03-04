@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_smarthome"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingLeft="60dp"
+    android:paddingRight="60dp"
+    android:paddingTop="60dp">
+    <WebView
+        android:id="@+id/wv_help"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></WebView>
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/ll_help"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:gravity="center"
+            android:src="@drawable/ic_public_number"
+            android:layout_width="300dp"
+            android:layout_height="300dp" />
+        <TextView
+            android:paddingTop="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="扫描二维码查看帮助"
+            android:textSize="17sp"
+            android:textColor="@color/default_color"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

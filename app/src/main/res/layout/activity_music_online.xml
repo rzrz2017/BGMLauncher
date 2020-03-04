@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_music_online"
+    android:paddingLeft="@dimen/header_margin"
+    android:paddingRight="@dimen/header_margin">
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        >
+
+        <Button
+            android:id="@+id/type_pop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/default_color"
+            android:textSize="16sp"
+            android:text="@string/str_type_pop"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@null"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/type_oumei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/default_color"
+            android:textSize="16sp"
+            android:text="@string/str_type_oumei"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@null"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/type_rihan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/default_color"
+            android:textSize="16sp"
+            android:text="@string/str_type_rihan"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@null"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/type_class"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/default_color"
+            android:textSize="16sp"
+            android:text="@string/str_type_class"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@null"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/type_minyao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/default_color"
+            android:textSize="16sp"
+            android:text="@string/str_type_minyao"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@null"
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/type_chun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/default_color"
+            android:textSize="16sp"
+            android:text="@string/str_type_chun"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@null"
+            android:gravity="center"
+            />
+        <Button
+            android:id="@+id/type_recommand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/default_color"
+            android:textSize="16sp"
+            android:text="@string/str_type_recommend"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@null"
+            android:gravity="center"
+            />
+
+
+    </LinearLayout>
+
+
+    <GridView
+        android:layout_gravity="center"
+        android:id="@+id/albums"
+        android:numColumns="4"
+        android:verticalSpacing="10dp"
+        android:layout_margin="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    </GridView>
+    
+    
+
+</LinearLayout>
+
+

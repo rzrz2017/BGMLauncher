@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:paddingLeft="@dimen/header_margin"
+    android:paddingRight="@dimen/header_margin"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="本地音乐"
+            android:textColor="@color/default_color"
+            android:textSize="@dimen/title_size" />
+
+
+        <Button
+            android:background="@null"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scan"
+            android:text="扫描"
+            android:textColor="@color/default_color"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal"
+
+            />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/normal_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+
+        <ListView
+            android:listSelector="@drawable/adapter_selector"
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent">
+
+        </ListView>
+
+
+        <TextView
+            android:visibility="gone"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="17sp"
+            android:textColor="@color/default_color"
+            android:id="@+id/error"
+            android:text="没有插入TF卡"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/searching_layout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <com.dsn.andy.bgmlauncher.view.SearchDevicesView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:id="@+id/searchView"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/searching_dir"
+            android:text="正在扫描/mnt/extsd/music/"
+            android:maxLines="1"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/default_color"
+            />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_result"
+            android:text="已扫描到0首歌曲"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textColor="@color/default_color"
+            />
+
+        <Button
+            android:visibility="gone"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stop_scan"
+            android:text="停止扫描"
+            android:textColor="@color/default_color"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="@drawable/bg_select_shape"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+

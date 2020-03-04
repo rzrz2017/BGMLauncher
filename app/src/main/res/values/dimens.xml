@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="btn_margin">30dp</dimen>
+    <dimen name="header_margin">30dp</dimen>
+    <dimen name="list_margin">60dp</dimen>
+    <dimen name="title_size">20sp</dimen>
+
+    <dimen name="middle_size">16sp</dimen>
+
+    <dimen name="space">15dp</dimen>
+    <dimen name="app_space">35dp</dimen>
+    <dimen name="btn_padding">10dp</dimen>
+
+    <dimen name="header_height">60dp</dimen>
+
+    <dimen name="nav_text_size">16sp</dimen>
+
+    <dimen name="key_size_big">18sp</dimen>
+    <dimen name="key_size_small">13sp</dimen>
+
+    <dimen name="nav_radio_size">18sp</dimen>
+
+    <dimen name="nav_radio_margin">20dp</dimen>
+
+    <dimen name="radio_margin">40dp</dimen>
+
+    <dimen name="room_margin">40dp</dimen>
+
+    <dimen name="home_recycelerview_margin">5dp</dimen>
+
+
+</resources>

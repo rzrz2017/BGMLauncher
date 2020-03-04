@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_search"
+    android:orientation="vertical"
+    android:padding="40dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="音源切换"
+            android:textColor="@color/default_color"
+            android:textSize="@dimen/title_size" />
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="20dp"
+        android:background="@drawable/corner_shape"
+        android:orientation="vertical"
+        android:padding="1dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="请设置通道："
+            android:textColor="@color/default_color"
+            android:textSize="17sp" />
+
+
+        <RadioGroup
+            android:layout_marginLeft="30dp"
+            android:orientation="horizontal"
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="请选择">
+
+            <RadioButton
+                android:id="@+id/in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:textColor="@color/default_color"
+                android:textSize="17sp"
+                android:text="外部音源"></RadioButton>
+
+            <RadioButton
+                android:layout_marginLeft="60dp"
+                android:id="@+id/out"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/default_color"
+                android:textSize="17sp"
+                android:text="本地音源"></RadioButton>
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
